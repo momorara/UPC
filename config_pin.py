@@ -19,7 +19,7 @@ def pin_setting():
     pin_mode_B  = 28 
     pin_mode_C  = 29 #
     return pin_FET_on, pin_FET_off, pin_Load_on, pin_mode_A, pin_mode_B, pin_mode_C
-
+"""
 # v01-1
 def pin_setting():
     pin_FET_on  = 26
@@ -29,7 +29,7 @@ def pin_setting():
     pin_mode_B  = 28
     pin_mode_C  = 1  #
     return pin_FET_on,pin_FET_off,pin_Load_on,pin_mode_A,pin_mode_B,pin_mode_C
-
+"""
 def main():
     print(pin_setting())
 
