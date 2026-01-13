@@ -11,6 +11,7 @@ v1.0
 # 基板のバージョンによりpin_settingが一部異なります。
 # 対象外の方をコメントアウトしてください。
 # v03,v01
+"""
 def pin_setting():
     pin_FET_on  = 26
     pin_FET_off = 3 #
@@ -29,7 +30,7 @@ def pin_setting():
     pin_mode_B  = 28
     pin_mode_C  = 1  #
     return pin_FET_on,pin_FET_off,pin_Load_on,pin_mode_A,pin_mode_B,pin_mode_C
-"""
+
 def main():
     print(pin_setting())
 
