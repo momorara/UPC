@@ -21,18 +21,18 @@ offsetで16時とすると
 def timer_setting():
     # モバイルバッテリーのエコ機能の働く時間より少し短い時間とする。(秒)
     # 各タイマーより短い時間である必要があります。
-    BEC_timer  =100
+    BEC_timer  =30
     # モバイルバッテリーのエコ機能を負荷をかけて解除する最短時間より少し長い時間とする。(秒)
     Load_time =0.3
 
     # on時間を決めるタイマー値  modeB,modeCで使用。(分)
     # timer_on時間はBEC_timerより最低10秒は長い必要がある
-    timer_on =15
+    timer_on =1
     # timer_off時間はBEC_timerより最低10秒は長い必要がある
     # off時間を決めるタイマー値 modeA,modeCで使用。(分)
-    timer_off =1125
+    timer_off =1
     # modeCで電源をつないでからUSB-Aをonにするまでの時間。(分)
-    timer_offset =370
+    timer_offset =1
 
     # 1日の誤差を確認して、補正値を設定 (秒)
     # 1日に5秒の遅れなら 5秒
@@ -66,7 +66,7 @@ timerCに関して、当初onスタートとoffスタートを分けていたが
 def action_setting():
     # modeCの時何回までon動作を行うかの設定
     # 1: on_countを使用する 0:使用しない
-    on_count_enable =1
+    on_count_enable =0
     # 設定回数onを繰り返す -1 で回数制限なしとなる
     on_count =2
     # 1: on_countを日替わり時にリセットし、毎日処理  
