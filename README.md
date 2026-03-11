@@ -35,3 +35,12 @@ BEC機能(バッテリー省電力機能キャンセル)もあります。<br>
 <h4><<サポート窓口>></h4>
   メールアドレス　tkj-works@mbr.nifty.com <br>
   サポートコミュニティー　https://www.facebook.com/groups/3773038759434230<br>
+
+Raspberry Pi sensor expansion board<br>
+Python example included<br>
+Purchase here:<br>
+基板の販売について、以下のショップにて扱っています。<br>
+BASEショップ<br>
+https://raspi.thebase.in/<br>
+スイッチサイエンス<br>
+https://www.switch-science.com/search?q=tkj<br>
